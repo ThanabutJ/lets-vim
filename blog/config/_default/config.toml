@@ -1,6 +1,6 @@
 baseURL = 'https://thanabutj.github.io/lets-vim/'
 languageCode = 'en-us'
-title = 'Let's VIM'
+title = "Let's VIM"
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
