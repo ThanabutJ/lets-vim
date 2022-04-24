@@ -1,5 +1,5 @@
 ---
-title: "1.1 Basic Modes"
+title: "1.1 VIM Basic Modes"
 date: 2022-04-24T19:26:27+07:00
 weight: 1
 ---
@@ -83,3 +83,7 @@ const user = ['userA','userB','userC']
 // ขยับ cursor มาที่ตัว r แล้วพิมพ์ s ลงไปต่อท้ายได้เลย
 const users = ['userA','userB','userC']
 ```
+
+### กลับสู่ Normal Mode
+
+วิธีการกลับสู่ Normal Mode จาก mode อื่นๆ เพียงแค่กดพุ่ม `ESC`
