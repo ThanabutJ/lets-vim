@@ -7,3 +7,11 @@ theme = "hugo-theme-learn"
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  # Author of the site, will be used in meta information
+  author = ""
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = ""
+
+  landingPageURL = "/lets-vim"
