@@ -83,7 +83,8 @@ const user = ['userA','userB','userC']
 // ขยับ cursor มาที่ตัว r แล้วพิมพ์ s ลงไปต่อท้ายได้เลย
 const users = ['userA','userB','userC']
 ```
+---
 
 ### กลับสู่ Normal Mode
 
-วิธีการกลับสู่ Normal Mode จาก mode อื่นๆ เพียงแค่กดพุ่ม `ESC`
+วิธีการกลับสู่ Normal Mode จาก mode อื่นๆ เพียงแค่กดปุ่ม `ESC`

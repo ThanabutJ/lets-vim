@@ -1,17 +1,32 @@
 baseURL = 'https://thanabutj.github.io/lets-vim/'
-languageCode = 'en-us'
+languageCode = 'th-TH'
 title = "Let's VIM"
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
+defaultContentLanguage = "th"
 
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [params]
-  # Author of the site, will be used in meta information
-  author = ""
-  # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = ""
+    # Author of the site, will be used in meta information
+    author = "Thanabut Jaithima"
+    # Change default color scheme with a variant one. Can be "red", "blue", "green".
+    themeVariant = "green"
 
-  landingPageURL = "/lets-vim"
+[Languages]
+[Languages.th]
+title = "Let's VIM"
+weight = 1
+languageName = "Thai"
+landingPageURL = "/lets-vim"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
+[Languages.en]
+title = "Let's VIM"
+weight = 2
+languageName = "English"
+landingPageURL = "/lets-vim/en"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
